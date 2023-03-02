@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>epicG</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">epicPict</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://store.epicgames.com/ru/news<datalist><option>https://store.epicgames.com/ru/news</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>[class="css-1itgwkl"] li:nth-child(2) div div div[class='css-3d5xom'] [aria-labelledby="hitman-world-of-assassination-redefines-the-hit-game"]<datalist><option>xpath=//div[@id='dieselReactWrapper']/div/div[4]/main/div[2]/div/div/div/div/div/section/div/div[2]/div[2]/ul/li[2]/article/div/div/div/a/div</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Подробнее'])[3]/following::div[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Обзор: стрельба для Vanilla Ice в Crime Boss: Rockay City'])[1]/following::div[7]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Мир наёмных убийц HITMAN — новый взгляд на известную игру'])[1]/preceding::div[9]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Пройдите все уровни классической трилогии, а также взгляните на режим «Фрилансер» (Freelancer).'])[1]/preceding::div[11]</option><option>xpath=//li[2]/article/div/div/div/a/div</option><option>[class="css-1itgwkl"] li:nth-child(2) div div div[class='css-3d5xom'] [aria-labelledby="hitman-world-of-assassination-redefines-the-hit-game"]</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">EpicB</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.epicgames.com/id/register/epic<datalist><option>https://www.epicgames.com/id/register/epic</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>[class="MuiPaper-root MuiAccordion-root sc-iBaQBe cPpNSt MuiAccordion-rounded MuiPaper-elevation0 MuiPaper-rounded"] div[role='button']<datalist><option>xpath=//div[@id='modal-content']/div[2]/div/form/div[2]/div</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='​'])[3]/following::div[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='​'])[2]/following::div[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Продолжить'])[1]/preceding::div[8]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Политика конфиденциальности'])[1]/preceding::div[9]</option><option>xpath=//form/div[2]/div</option><option>css=div.MuiButtonBase-root.MuiAccordionSummary-root.Mui-expanded</option><option>[role='button']</option><option>[class="MuiPaper-root MuiAccordion-root sc-iBaQBe cPpNSt MuiAccordion-rounded MuiPaper-elevation0 MuiPaper-rounded"] div[role='button']</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>

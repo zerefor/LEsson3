@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>Login</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Positive</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://academ-it.ru/mantisbt/login_page.php<datalist><option>https://academ-it.ru/mantisbt/login_page.php</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=username<datalist><option>id=username</option><option>name=username</option><option>xpath=//input[@id='username']</option><option>xpath=//form[@id='login-form']/fieldset/label/span/input</option><option>xpath=//span/input</option><option>css=#username</option></datalist></td><td>admin</td></tr>
+<tr><td>click</td><td>xpath=//input[@value='Войти']<datalist><option>xpath=//input[@value='Войти']</option><option>xpath=//form[@id='login-form']/fieldset/input[2]</option><option>xpath=//input[2]</option><option>css=input.width-40.pull-right.btn.btn-success.btn-inverse.bigger-110</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=password<datalist><option>id=password</option><option>name=password</option><option>xpath=//input[@id='password']</option><option>xpath=//form[@id='login-form']/fieldset/label/span/input</option><option>xpath=//span/input</option><option>css=#password</option></datalist></td><td>admin20</td></tr>
+<tr><td>submit</td><td>id=login-form<datalist><option>id=login-form</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://academ-it.ru/mantisbt/my_view_page.php<datalist><option>https://academ-it.ru/mantisbt/my_view_page.php</option></datalist></td><td></td></tr>
+<tr><td>assertLocation</td><td>https://academ-it.ru/mantisbt/my_view_page.php<datalist><option>https://academ-it.ru/mantisbt/my_view_page.php</option></datalist></td><td></td></tr>
+<tr><td>assertText</td><td>xpath=//div[@id='navbar-container']/div[2]/ul/li[2]/a/span<datalist><option>xpath=//div[@id='navbar-container']/div[2]/ul/li[2]/a/i</option><option>xpath=//li[2]/a/i</option><option>css=a.dropdown-toggle > i.ace-icon.fa.fa-user.fa-2x.white</option><option>xpath=//div[@id='navbar-container']/div[2]/ul/li[2]/a/span</option></datalist></td><td>admin</td></tr>
+<tr><td>click</td><td>link=My Account<datalist><option>link=My Account</option><option>xpath=//a[contains(text(),'My Account')]</option><option>xpath=//div[@id='navbar-container']/div[2]/ul/li[2]/ul/li/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='admin'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Invite Users'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='RSS'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/preceding::a[2]</option><option>xpath=//*/text()[normalize-space(.)='My Account']/parent::*</option><option>xpath=//a[contains(@href, '/mantisbt/account_page.php')]</option><option>xpath=//li[2]/ul/li/a</option><option>css=ul.user-menu.dropdown-menu.dropdown-menu-right.dropdown-yellow.dropdown-caret.dropdown-close > li > a</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://academ-it.ru/mantisbt/account_page.php<datalist><option>https://academ-it.ru/mantisbt/account_page.php</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='navbar-container']/div[2]/ul/li[2]/a/i[2]<datalist><option>xpath=//div[@id='navbar-container']/div[2]/ul/li[2]/a/i[2]</option><option>xpath=//i[2]</option><option>css=i.ace-icon.fa.fa-angle-down</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Logout<datalist><option>link=Logout</option><option>xpath=//a[contains(text(),'Logout')]</option><option>xpath=//div[@id='navbar-container']/div[2]/ul/li[2]/ul/li[4]/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='RSS'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='My Account'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='My View'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='View Issues'])[1]/preceding::a[2]</option><option>xpath=//*/text()[normalize-space(.)='Logout']/parent::*</option><option>xpath=//a[contains(@href, '/mantisbt/logout_page.php')]</option><option>xpath=//li[4]/a</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://academ-it.ru/mantisbt/login_page.php<datalist><option>https://academ-it.ru/mantisbt/login_page.php</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Negative</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://academ-it.ru/mantisbt/login_page.php<datalist><option>https://academ-it.ru/mantisbt/login_page.php</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=username<datalist><option>id=username</option><option>name=username</option><option>xpath=//input[@id='username']</option><option>xpath=//form[@id='login-form']/fieldset/label/span/input</option><option>xpath=//span/input</option><option>css=#username</option></datalist></td><td>admin</td></tr>
+<tr><td>submit</td><td>id=login-form<datalist><option>id=login-form</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=password<datalist><option>id=password</option><option>name=password</option><option>xpath=//input[@id='password']</option><option>xpath=//form[@id='login-form']/fieldset/label/span/input</option><option>xpath=//span/input</option><option>css=#password</option></datalist></td><td>correct?</td></tr>
+<tr><td>submit</td><td>id=login-form<datalist><option>id=login-form</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://academ-it.ru/mantisbt/login_page.php?error=1&username=admin&return=index.php&secure_session=1<datalist><option>https://academ-it.ru/mantisbt/login_page.php?error=1&username=admin&return=index.php&secure_session=1</option></datalist></td><td></td></tr>
+<tr><td>assertText</td><td>xpath=//div[@id='main-container']/div/div/div/div/div[4]/p<datalist><option>xpath=//div[@id='main-container']/div/div/div/div/div[4]/p</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Katalon Recorder is recording ...'])[1]/preceding::p[1]</option><option>xpath=//*/text()[normalize-space(.)='Возможно, ваша учетная запись заблокирована, или введенное регистрационное имя/пароль неправильны.']/parent::*</option><option>xpath=//p</option><option>css=p</option></datalist></td><td>Возможно, ваша учетная запись заблокирована, или введенное регистрационное имя/пароль неправильны.</td></tr>
+<tr><td>verifyLocation</td><td>https://academ-it.ru/mantisbt/login_page.php?error=1&username=admin&return=index.php&secure_session=1<datalist><option>https://academ-it.ru/mantisbt/my_view_page.php</option><option>https://academ-it.ru/mantisbt/login_page.php?error=1&username=admin&return=index.php&secure_session=1</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Negative#2</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://academ-it.ru/mantisbt/login_page.php<datalist><option>https://academ-it.ru/mantisbt/login_page.php</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=username<datalist><option>id=username</option><option>name=username</option><option>xpath=//input[@id='username']</option><option>xpath=//form[@id='login-form']/fieldset/label/span/input</option><option>xpath=//span/input</option><option>css=#username</option></datalist></td><td>admin</td></tr>
+<tr><td>submit</td><td>id=login-form<datalist><option>id=login-form</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=password<datalist><option>id=password</option><option>name=password</option><option>xpath=//input[@id='password']</option><option>xpath=//form[@id='login-form']/fieldset/label/span/input</option><option>xpath=//span/input</option><option>css=#password</option></datalist></td><td>admin20</td></tr>
+<tr><td>submit</td><td>id=login-form<datalist><option>id=login-form</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//a[contains(text(),'admin')]<datalist><option>xpath=//a[contains(text(),'admin')]</option><option>xpath=//div[@id='breadcrumbs']/ul/li/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Manage'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Summary'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='administrator'])[1]/preceding::a[1]</option><option>xpath=//div[2]/div[2]/div/ul/li/a</option><option>css=ul.breadcrumb > li > a</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=password<datalist><option>id=password</option><option>name=password</option><option>xpath=//input[@id='password']</option><option>xpath=//form[@id='account-update-form']/div/div[2]/div/div/table/tbody/tr[3]/td[2]/input</option><option>xpath=//tr[3]/td[2]/input</option><option>css=#password</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=password<datalist><option>id=password</option><option>name=password</option><option>xpath=//input[@id='password']</option><option>xpath=//form[@id='account-update-form']/div/div[2]/div/div/table/tbody/tr[3]/td[2]/input</option><option>xpath=//tr[3]/td[2]/input</option><option>css=#password</option></datalist></td><td>фыфы</td></tr>
+<tr><td>click</td><td>xpath=//input[@value='Update User']<datalist><option>xpath=//input[@value='Update User']</option><option>xpath=//form[@id='account-update-form']/div/div[2]/div[2]/input</option><option>xpath=//div[2]/input</option><option>css=input.btn.btn-primary.btn-white.btn-round</option></datalist></td><td></td></tr>
+<tr><td>assertText</td><td>//div[@id='main-container']/div[2]/div[2]/div/div/div[2]/p<datalist><option>//div[@id='main-container']/div[2]/div[2]/div/div/div[2]/p</option></datalist></td><td>APPLICATION ERROR #803</td></tr>
+<tr><td>assertLocation</td><td>https://academ-it.ru/mantisbt/account_update.php<datalist><option>https://academ-it.ru/mantisbt/account_update.php</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>
